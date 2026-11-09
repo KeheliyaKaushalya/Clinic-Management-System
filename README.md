@@ -1,3 +1,33 @@
+## About this repository
+
+This is a copy of [DilanSriyantha/clinic-management-system](https://github.com/DilanSriyantha/clinic-management-system),
+a team project, published under the MIT License. The commit history here is the
+original team history.
+
+### My contribution
+
+I wrote the **inventory (pharmacy stock) management** and **pharmacy sales
+management** modules. I handed my code to the team on a USB drive, and a teammate
+committed it to the team repository. Because of that, the Git history doesn't list
+me as an author.
+
+**Pharmacy stock management**
+- Item records: create and list pharmacy items.
+- Stock records: create and list stock entries.
+- Backend: controller, service, repositories, models (`Item`, `Stock`) and DTOs for items and stock.
+
+**Pharmacy sales management**
+- Invoice creation, an invoice list, and an invoice records list.
+
+Where to find it in the code:
+- `backend/src/main/java/org/cms/PharmacyStockManagement/`
+- `frontend/src/pages/PharmacyStockManagement/`
+- `frontend/src/pages/PharmacySalesManagement/`
+
+All other modules, including authentication, patient management, appointments and
+reports, were written by the other team members.
+
+
 # 🏥 Clinic Management System (CMS)
 
 A **user-friendly and efficient** Clinic Management System designed to **automate** and **streamline** the operations of a medical clinic in Sri Lanka. The system replaces manual paper-based workflows with a **digital solution** for managing **patients, doctors, appointments, billing, inventory, and reports**.
